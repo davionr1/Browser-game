@@ -1,0 +1,41 @@
+
+ .background-img{
+    background-image: url("images\craftpix-671123-free-halloween-2d-game-backgrounds\PNG\3_game_background\3_game_background.png");
+    
+} 
+.character-1{
+    position: absolute;
+    left: 15em;
+    top: 27em;
+}
+.char-eyes{
+    position: relative;
+    right: 182px;
+    bottom: 62px;
+}
+.character-2{
+    position: absolute;
+    right: 15em;
+    top: 27em;
+    transform: rotateY(180deg);
+}
+h1{
+    position: absolute;
+    top: 3.2em;
+    left: -9.3em;
+    font-size: 7em;
+    background-color: rgba(255, 255, 255, 0.307);
+    padding-left: 100%;
+    padding-right: 100%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+h2{
+    position: absolute;
+    top: 7em;
+    left: 16.8em;
+    font-size: 3em;
+}
+.presstoPlay:hover{
+    background-color: green;
+}

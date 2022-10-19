@@ -1,0 +1,13 @@
+/*  in case i have time to create a menu to pick character */
+html{
+    
+    background-color:royalblue ;
+}
+h1{
+    font-size: 150px;
+    color: yellow;
+}
+
+.flip-img{
+    transform: rotateY(180deg);
+}

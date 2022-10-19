@@ -1,4 +1,56 @@
-img{
-    max-height: 100%;
+.container{
+    width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.front-page-img{
+    width: 100%;
+    height: 100%;
+    background-image: url("images\HSoccer-Front-oage.png");
+    background-size: 100% 100%;
+}
+ .options{ 
+    position:absolute;
+    bottom:87%;
+    right: 0%;
+} 
+.ball{
+    border-radius:30px;
+}
+.ball,.present,.settings,.gameCenter{
+    max-width:300px;
     height: auto;
+    width:100px ;
+    height: 100%; 
+}
+/* .ball,.present,.settings{
+
+} */
+ a {   
+    font-size: 70px;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 1em;
+    position: absolute;
+    padding: 15px 15px 15px 48px;
+    text-align: center;
+    margin-top: -54px;
+}
+.navbar{
+    
+    background-color: red;
+    font-size: 3em;
+    color:white;
+    border:solid 5px rgb(230, 225, 225);
+    bottom: 5em;
+    left:17em;
+    position: relative;
+    border-radius: 60px;
+    height: 100px;
+    max-width:100%;
+    width: 350px;
+   
+    
 }
